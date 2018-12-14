@@ -58,14 +58,11 @@ while stop == 'go':
             a = float(c[2:3])
     except: 
         pass
-    #finally:
-    #    print(a)
+
     #conversion to Specific Gravity
     sg = (a - 746) / -520
 #record data of a into the array
     D.append(sg)
-
-#put in the conversion to S.G here
     
 #Time stuff
     t = dt.datetime.now() 
